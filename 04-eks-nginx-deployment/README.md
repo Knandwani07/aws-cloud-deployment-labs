@@ -83,5 +83,5 @@ This project strengthens your understanding of **Kubernetes orchestration**, AWS
 👉 
 
 ## 🏷️ Tags  
-`Amazon EKS` `Kubernetes` `NGINX` `Container Orchestration` `Cloud Native` `AWS IAM` `VPC Networking` `Load Balancer` `kubectl` `Intermediate AWS Project`
+`Amazon EKS` `Kubernetes` `NGINX` `Container Orchestration` `Cloud Native` `AWS IAM` `VPC Networking` `Load Balancer` `kubectl` `Advanced AWS Project`
 
