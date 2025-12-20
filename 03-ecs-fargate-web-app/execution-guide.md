@@ -1,11 +1,11 @@
-# Execution Guide: Deploying a Containerized Web Application on Amazon ECS (Fargate)
+# 🚀 Execution Guide: Deploying a Containerized Web Application on Amazon ECS (Fargate)
 
 This document provides a step-by-step execution guide for deploying a containerized web application using Amazon Elastic Container Service (ECS) with AWS Fargate.  
 The workflow includes cluster creation, task definition setup, service deployment, security group configuration, application access, and resource cleanup.
 
 ---
 
-## I. Create an Amazon ECS Cluster
+## 🧩 I. Create an Amazon ECS Cluster
 
 1. Log in to the AWS Management Console.
 2. Search for Amazon ECS and open the service.
@@ -19,7 +19,7 @@ The workflow includes cluster creation, task definition setup, service deploymen
 
 ---
 
-## II. Create a Task Definition
+## 📦 II. Create a Task Definition
 
 1. In the ECS console, navigate to Task Definitions.
 2. Click Create new task definition.
@@ -37,7 +37,7 @@ The workflow includes cluster creation, task definition setup, service deploymen
 
 ---
 
-## III. Create an ECS Service
+## 🚢 III. Create an ECS Service
 
 1. Return to the Clusters section.
 2. Open the previously created cluster (ecs-demo-cluster).
@@ -52,7 +52,7 @@ The workflow includes cluster creation, task definition setup, service deploymen
 
 ---
 
-## IV. Configure Security Group for Application Access
+## 🔐 IV. Configure Security Group for Application Access
 
 1. Open the EC2 Dashboard.
 2. Navigate to Security Groups.
@@ -65,7 +65,7 @@ The workflow includes cluster creation, task definition setup, service deploymen
 
 ---
 
-## V. Access the Running Application
+## 🌐 V. Access the Running Application
 
 1. Return to the ECS console.
 2. Open the running task under the service.
@@ -80,7 +80,7 @@ http://(public-ip)
 
 ---
 
-## VI. Clean Up Resources
+## 🧹 VI. Clean Up Resources
 
 1. Remove the inbound HTTP rule from the security group.
 2. Delete the ECS service.
@@ -89,7 +89,6 @@ http://(public-ip)
 
 ---
 
-## Conclusion
+## ✅ Conclusion
 
 This execution guide demonstrates how to deploy a containerized web application using Amazon ECS with AWS Fargate. By following these steps, users gain practical experience with managed container orchestration, task and service configuration, networking, and secure application access without managing EC2 instances. This workflow forms a solid foundation for learning container-based application deployment on AWS.
-
