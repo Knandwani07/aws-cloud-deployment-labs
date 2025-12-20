@@ -1,13 +1,13 @@
-# Execution Guide: Deploying NGINX on Amazon EKS
+# 🚀 Execution Guide: Deploying NGINX on Amazon EKS
 
 This document provides a step-by-step execution guide for provisioning an Amazon EKS cluster, deploying an NGINX application, exposing it via a LoadBalancer service, and cleaning up all resources.  
 All steps are performed using the AWS Management Console and AWS CloudShell.
 
 ---
 
-## I. Create IAM Roles
+## 🧩 I. Create IAM Roles
 
-### 1. Create EKS Cluster Role
+### 🔐 1. Create EKS Cluster Role
 1. Log in to the AWS Management Console.
 2. Navigate to IAM → Roles → Create role.
 3. Select:
@@ -18,7 +18,7 @@ All steps are performed using the AWS Management Console and AWS CloudShell.
 5. Name the role: `EKS-Cluster-Role`.
 6. Review and create the role.
 
-### 2. Create Node Group Role
+### 🧱 2. Create Node Group Role
 1. Create a new role.
 2. Select:
    - Trusted entity type: AWS service
@@ -32,7 +32,7 @@ All steps are performed using the AWS Management Console and AWS CloudShell.
 
 ---
 
-## II. Create the EKS Cluster
+## ☸️ II. Create the EKS Cluster
 
 1. Open the Amazon EKS console.
 2. Click Create cluster.
@@ -57,7 +57,7 @@ All steps are performed using the AWS Management Console and AWS CloudShell.
 
 ---
 
-## III. Create a Node Group
+## 🧠 III. Create a Node Group
 
 1. Open the created cluster.
 2. Navigate to the Compute tab.
@@ -72,7 +72,7 @@ All steps are performed using the AWS Management Console and AWS CloudShell.
 
 ---
 
-## IV. Update Subnet Tags
+## 🏷️ IV. Update Subnet Tags
 
 1. Open the VPC console.
 2. Navigate to Subnets.
@@ -85,7 +85,7 @@ All steps are performed using the AWS Management Console and AWS CloudShell.
 
 ---
 
-## V. Configure kubectl Using CloudShell
+## 🧑‍💻 V. Configure kubectl Using CloudShell
 
 1. Open AWS CloudShell.
 2. Run the following commands:
@@ -100,7 +100,7 @@ kubectl get pods -A
 
 ---
 
-## VI. Deploy the NGINX Application
+## 🚀 VI. Deploy the NGINX Application
 
 1. Create the Kubernetes deployment manifest file `nginx-deployment.yaml`.
 2. Apply the deployment:
@@ -116,13 +116,13 @@ kubectl get services nginx-service
 4. Wait until an external IP is assigned to the service.
 5. Open a browser and navigate to:
 
-http://<external-ip>
+  http://(external-ip)
 
 6. Confirm the NGINX default welcome page is displayed.
 
 ---
 
-## VII. Clean Up Resources
+## 🧹 VII. Clean Up Resources
 
 1. Delete the node group.
 2. Delete the EKS cluster.
@@ -133,7 +133,6 @@ http://<external-ip>
 
 ---
 
-## Conclusion
+## ✅ Conclusion
 
 This execution guide demonstrates the complete lifecycle of deploying a containerized application on Amazon EKS using managed Kubernetes services. Following these steps provides hands-on experience with IAM configuration, VPC networking, Kubernetes deployments, and AWS-managed infrastructure, forming a strong foundation for advanced Kubernetes and DevOps workflows.
-
