@@ -1,11 +1,11 @@
-# Execution Guide: Building a Serverless REST API Using AWS Lambda and Amazon API Gateway
+# 🚀 Execution Guide: Building a Serverless REST API Using AWS Lambda and Amazon API Gateway
 
 This document provides a step-by-step execution guide for building, deploying, and validating a serverless REST API using AWS Lambda and Amazon API Gateway.  
 The workflow includes Lambda function creation, external API integration, API Gateway configuration, deployment, testing, and cleanup.
 
 ---
 
-## I. Create and Test the AWS Lambda Function
+## 🧩 I. Create and Test the AWS Lambda Function
 
 1. Log in to the AWS Management Console.
 2. Search for AWS Lambda and select Create function.
@@ -15,7 +15,7 @@ The workflow includes Lambda function creation, external API integration, API Ga
 4. Keep all other settings as default and create the function.
 5. Review the auto-generated code in `lambda_function.py`.
 
-### Test the Lambda Function
+### 🧪 Test the Lambda Function
 1. In the Lambda console, select the Test option.
 2. Choose Create new test event.
 3. Enter an event name (example: NewEvent).
@@ -30,7 +30,7 @@ The workflow includes Lambda function creation, external API integration, API Ga
 
 ---
 
-## II. Configure External API Integration
+## 🌐 II. Configure External API Integration
 
 1. Create a new file in the Lambda function named `config.py`.
 2. Add the following variable:
@@ -49,7 +49,7 @@ https://jsonplaceholder.typicode.com/
 
 ---
 
-## III. Create and Configure the REST API Using API Gateway
+## 🔗 III. Create and Configure the REST API Using API Gateway
 
 1. Search for API Gateway in the AWS Console and open it.
 2. Click Create API.
@@ -60,11 +60,11 @@ https://jsonplaceholder.typicode.com/
    - Security policy: SecurityPolicy_TLS12_2018-EDGE
 5. Create the API.
 
-### Enable CORS
+### 🌍 Enable CORS
 1. In the Resources section, select Enable CORS.
 2. Save using default settings.
 
-### Create GET Method
+### 📥 Create GET Method
 1. Click Create Method.
 2. Configure the method:
    - Method type: GET
@@ -76,7 +76,7 @@ https://jsonplaceholder.typicode.com/
 
 ---
 
-## IV. Deploy the API
+## 🚢 IV. Deploy the API
 
 1. Select Deploy API.
 2. Choose New Stage.
@@ -85,7 +85,7 @@ https://jsonplaceholder.typicode.com/
 
 ---
 
-## V. Test the Deployed API
+## 🧭 V. Test the Deployed API
 
 1. In Stage Details, copy the Invoke URL.
 2. Open Postman.
@@ -97,7 +97,7 @@ https://jsonplaceholder.typicode.com/
 
 ---
 
-## VI. Add API Gateway as a Trigger for Lambda
+## 🔌 VI. Add API Gateway as a Trigger for Lambda
 
 1. Return to the Lambda function console.
 2. Select Add Trigger.
@@ -114,14 +114,14 @@ https://jsonplaceholder.typicode.com/
 
 ---
 
-## VII. Cleanup
+## 🧹 VII. Cleanup
 
 1. Delete the AWS Lambda function.
 2. Delete the REST API from Amazon API Gateway.
 
 ---
 
-## Conclusion
+## ✅ Conclusion
 
 This execution guide demonstrates the complete lifecycle of building a serverless REST API using AWS Lambda and Amazon API Gateway. Following these steps provides hands-on experience with serverless compute, API management, external service integration, and secure deployment practices on AWS. The workflow forms a strong foundation for building scalable, low-maintenance backend services using serverless architecture.
 
