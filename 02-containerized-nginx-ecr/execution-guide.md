@@ -1,11 +1,11 @@
-# Execution Guide: Containerized NGINX Web Application Deployment Using Amazon ECR
+# 🚀 Execution Guide: Containerized NGINX Web Application Deployment Using Amazon ECR
 
 This document provides a step-by-step execution guide for containerizing an NGINX-based web application using Docker and securely storing the container image in Amazon Elastic Container Registry (ECR).  
 The workflow includes repository creation, IAM configuration, Docker authentication, image build and push operations, local validation, and cleanup.
 
 ---
 
-## I. Create an Amazon ECR Repository
+## 🧩 I. Create an Amazon ECR Repository
 
 1. Log in to the AWS Management Console.
 2. Search for Amazon ECR and open the service.
@@ -16,7 +16,7 @@ The workflow includes repository creation, IAM configuration, Docker authenticat
 
 ---
 
-## II. Create IAM User and Configure Permissions
+## 🔐 II. Create IAM User and Configure Permissions
 
 1. Open the IAM console.
 2. Navigate to Users → Create user.
@@ -26,7 +26,7 @@ The workflow includes repository creation, IAM configuration, Docker authenticat
    - AmazonEC2ContainerRegistryPowerUser
 6. Review and create the user.
 
-### Generate Access Keys
+### 🔑 Generate Access Keys
 1. Open the created user.
 2. Select Create access key.
 3. Choose CLI as the use case.
@@ -35,7 +35,7 @@ The workflow includes repository creation, IAM configuration, Docker authenticat
 
 ---
 
-## III. Configure AWS CLI on Local Machine
+## 🖥️ III. Configure AWS CLI on Local Machine
 
 1. Open Windows PowerShell.
 2. Run the following command:
@@ -51,7 +51,7 @@ aws configure
 
 ---
 
-## IV. Verify Docker Installation
+## 🐳 IV. Verify Docker Installation
 
 1. Check Docker installation:
 
@@ -62,7 +62,7 @@ docker --version
 
 ---
 
-## V. Authenticate Docker with Amazon ECR
+## 🔗 V. Authenticate Docker with Amazon ECR
 
 1. Return to the Amazon ECR repository.
 2. Select the repository.
@@ -73,7 +73,7 @@ docker --version
 
 ---
 
-## VI. Create Application Files and Docker Image
+## 🧱 VI. Create Application Files and Docker Image
 
 1. Create a project directory:
 
@@ -90,7 +90,7 @@ COPY index.html /usr/share/nginx/html/index.html
 
 ---
 
-## VII. Build, Tag, and Push the Docker Image
+## 🚀 VII. Build, Tag, and Push the Docker Image
 
 1. Build the Docker image using the ECR-provided command.
 2. Tag the image using the repository URI.
@@ -103,7 +103,7 @@ docker images
 
 ---
 
-## VIII. Run and Validate the Container Locally
+## 🌐 VIII. Run and Validate the Container Locally
 
 1. Run the container locally:
 
@@ -118,7 +118,7 @@ http://localhost:8083
 
 ---
 
-## IX. Clean Up Resources
+## 🧹 IX. Clean Up Resources
 
 1. Delete the Docker image locally.
 2. Delete the Amazon ECR repository.
@@ -126,7 +126,6 @@ http://localhost:8083
 
 ---
 
-## Conclusion
+## ✅ Conclusion
 
 This execution guide demonstrates the complete lifecycle of containerizing a web application and managing container images using Docker and Amazon ECR. Following these steps provides hands-on experience with secure container image management, AWS IAM configuration, and Docker-based workflows commonly used in cloud-native and DevOps environments.
-
