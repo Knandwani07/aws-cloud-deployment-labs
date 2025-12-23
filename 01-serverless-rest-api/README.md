@@ -73,11 +73,13 @@ You gain hands-on experience building a **scalable, low-maintenance, cloud-nativ
 This project strengthens your understanding of **event-driven architecture**, API management, and modern backend design patterns.
 
 ## 🎥 Project Demo Video  
-👉
+👉 https://www.linkedin.com/posts/khushi-nandwani_aws-serverless-lambda-activity-7409102966269489152-TQfd
+
 ---
 
 ## 📄 Full Project Documentation  
-👉 
+👉 https://knandwani07.substack.com/p/building-a-serverless-rest-api-using?r=54btxy
+
 ## 🏷️ Tags  
 `AWS Lambda` `API Gateway` `Serverless` `REST API` `Cloud Architecture` `DevOps` `Python` `Backend` `Event-Driven Architecture` `Beginner AWS Project`
 
