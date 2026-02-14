@@ -76,11 +76,12 @@ You gain hands-on experience deploying and managing containerized applications u
 This project strengthens your understanding of **Kubernetes orchestration**, AWS networking, IAM integration, and production-grade cloud-native infrastructure.
 
 ## 🎥 Project Demo Video  
-👉
+👉 https://www.linkedin.com/posts/khushi-nandwani_aws-eks-kubernetes-activity-7412726871366221824
+
 ---
 
 ## 📄 Full Project Documentation  
-👉 
+👉  https://open.substack.com/pub/knandwani07/p/orchestrating-the-cloud-deploying?utm_campaign=post-expanded-share&utm_medium=web
 
 ## 🏷️ Tags  
 `Amazon EKS` `Kubernetes` `NGINX` `Container Orchestration` `Cloud Native` `AWS IAM` `VPC Networking` `Load Balancer` `kubectl` `Advanced AWS Project`
