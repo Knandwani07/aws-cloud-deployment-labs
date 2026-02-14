@@ -73,7 +73,7 @@ You gain hands-on experience with containerizing applications and managing conta
 This project strengthens your understanding of Docker fundamentals, AWS IAM security, and container image lifecycle management in cloud-native environments.
 
 ## 🎥 Project Demo Video  
-👉 https://www.linkedin.com/posts/khushi-nandwani_docker-aws-ecr-activity-7410190427129290753-ndK0?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE_UPJEBCVOHK7-Dy5jdozttNcasmFHJYAM
+👉 https://www.linkedin.com/posts/khushi-nandwani_docker-aws-ecr-activity-7410190427129290753
 ---
 
 ## 📄 Full Project Documentation  
