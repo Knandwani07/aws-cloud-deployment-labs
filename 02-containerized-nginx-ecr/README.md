@@ -74,6 +74,7 @@ This project strengthens your understanding of Docker fundamentals, AWS IAM secu
 
 ## 🎥 Project Demo Video  
 👉 https://www.linkedin.com/posts/khushi-nandwani_docker-aws-ecr-activity-7410190427129290753
+
 ---
 
 ## 📄 Full Project Documentation  
