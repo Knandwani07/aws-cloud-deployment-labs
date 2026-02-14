@@ -75,11 +75,12 @@ You gain hands-on experience deploying and managing containerized applications u
 This project strengthens your understanding of container orchestration, serverless compute for containers, and secure application exposure on AWS.
 
 ## 🎥 Project Demo Video  
-👉
+👉 https://www.linkedin.com/posts/khushi-nandwani_aws-ecs-fargate-activity-7411640158770331648
+ 
 ---
 
 ## 📄 Full Project Documentation  
-👉 
+👉 https://open.substack.com/pub/knandwani07/p/deploying-a-containerized-web-application?utm_campaign=post-expanded-share&utm_medium=web
 
 ## 🏷️ Tags  
 `Amazon ECS` `AWS Fargate` `Containers` `Apache HTTP Server` `Serverless Containers` `Cloud Orchestration` `DevOps` `Beginner AWS Project`
