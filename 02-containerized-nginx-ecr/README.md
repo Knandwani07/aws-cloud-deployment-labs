@@ -73,11 +73,11 @@ You gain hands-on experience with containerizing applications and managing conta
 This project strengthens your understanding of Docker fundamentals, AWS IAM security, and container image lifecycle management in cloud-native environments.
 
 ## 🎥 Project Demo Video  
-👉
+👉 https://www.linkedin.com/posts/khushi-nandwani_docker-aws-ecr-activity-7410190427129290753-ndK0?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE_UPJEBCVOHK7-Dy5jdozttNcasmFHJYAM
 ---
 
 ## 📄 Full Project Documentation  
-👉 
+👉 https://open.substack.com/pub/knandwani07/p/containerized-nginx-web-application?utm_campaign=post-expanded-share&utm_medium=web
 
 ## 🏷️ Tags  
 `Docker` `Amazon ECR` `NGINX` `Containerization` `Cloud Containers` `AWS IAM` `DevOps Fundamentals` `Beginner AWS Project`
